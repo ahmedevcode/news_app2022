@@ -2,8 +2,9 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:news_app_ui_setup/models/article_model.dart';
 import 'package:news_app_ui_setup/services/news_service.dart';
+import 'package:news_app_ui_setup/widgets/news_tile.dart';
 
-import 'news_tile.dart';
+//import 'news_tile.dart';
 
 class NewsListView extends StatelessWidget {
   final List<ArticleModel> articles;
@@ -18,8 +19,10 @@ class NewsListView extends StatelessWidget {
         (context, index) {
           return Padding(
             padding: const EdgeInsets.only(bottom: 22),
-            child: NewsTile(
-              articleModel: articles[index],
+            child: SizedBox(
+              child: NewsTile(
+                articleModel: articles[ index],
+              ),
             ),
           );
         },
