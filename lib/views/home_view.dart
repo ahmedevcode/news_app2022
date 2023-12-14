@@ -18,12 +18,12 @@ class HomeView extends StatelessWidget {
           children: [
             Text(
               'News',
-              style: TextStyle(color: Colors.black),
+              style: TextStyle(color: Colors.cyan),
             ),
-            Text(
-              'Cloud',
-              style: TextStyle(color: Colors.orange),
-            ),
+         //   Text(
+            //  'Cloud',
+           //   style: TextStyle(color: Colors.orange),
+          //  ),
           ],
         ),
       ),
