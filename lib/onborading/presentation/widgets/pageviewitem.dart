@@ -18,7 +18,11 @@ class pageviewitem extends StatelessWidget {
 
         SizedBox(
           height:400,
-            child: Image.asset(image!)),
+            child: SizedBox(
+              height:667,
+                width: 1000,
+
+                child: Image.asset(image!))),
         VerticalSpace(3),
          Text(
           title!,

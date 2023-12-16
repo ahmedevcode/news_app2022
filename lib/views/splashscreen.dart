@@ -69,7 +69,7 @@ class _AnimatedSplashScreenState extends State<AnimatedSplashScreen> {
             ),
           ),
           SizedBox(height: 20),
-         // CircularProgressIndicator(), // You can replace this with your own loading indicator
+          CircularProgressIndicator(), // You can replace this with your own loading indicator
         ],
       ),
     );

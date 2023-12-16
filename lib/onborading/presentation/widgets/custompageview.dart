@@ -14,10 +14,11 @@ class custompageview extends StatelessWidget {
         pageviewitem(
           image: 'assets/onborading2.jpg',
           title: 'world ',
-          subtitle: 'breaking_news for the world in different fields',
+          subtitle: 'breaking_news for the world in different fields ',
+
         ),
         pageviewitem(
-          image: 'assets/onborading1.jpg',
+          image: 'assets/onborading4.jpeg',
           title: 'technology',
           subtitle: 'Explore  top news of technology',
         ), pageviewitem(
