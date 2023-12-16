@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:fruitsmarket/feature/onborading/presentation/widgets/pageviewitem.dart';
+
+import 'pageviewitem.dart';
 
 class custompageview extends StatelessWidget {
   const custompageview({Key? key,@required this.pageController}) : super(key: key);
@@ -11,17 +12,18 @@ class custompageview extends StatelessWidget {
       controller:pageController ,
       children: [
         pageviewitem(
-          image: 'assets/images/onbording1.png',
-          title: 'E Shopping',
-          subtitle: 'Explore  top organic fruits & grab them',
+          image: 'assets/onborading2.jpg',
+          title: 'world ',
+          subtitle: 'breaking_news for the world in different fields',
+        ),
+        pageviewitem(
+          image: 'assets/onborading1.jpg',
+          title: 'technology',
+          subtitle: 'Explore  top news of technology',
         ), pageviewitem(
-          image: 'assets/images/onbording2.png',
-          title: 'Delivery on the way',
-          subtitle: 'Get your order by speed delivery',
-        ), pageviewitem(
-          image: 'assets/images/onbording3.png',
-          title: 'Delivery Arrived',
-          subtitle: 'Order is arrived at your Place',
+          image: 'assets/onborading3.jpg',
+          title: 'Sports',
+          subtitle: ' sports was mostly illegal under federal law',
         ),
 
 

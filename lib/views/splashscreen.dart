@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:news_app_ui_setup/onborading/presentation/onborading_view.dart';
 import 'package:news_app_ui_setup/views/home_view.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -16,7 +17,7 @@ class _SplashScreenState extends State<SplashScreen> {
           () {
         Navigator.pushReplacement(
           context,
-          MaterialPageRoute(builder: (context) => HomeView()),
+          MaterialPageRoute(builder: (context) => onboradingview()),
         );
       },
     );
